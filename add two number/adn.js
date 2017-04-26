@@ -11,17 +11,21 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-var addTwoNumbers = function(l1, l2){
-	var sum=l1.val+l2.val,next1=l1.next,next2=l2.next;
-	var l3 = new ListNode(sum%10),node=l3;
-	sum = Math.floor(sum/10);
-	while(next1 || next2 || sum!==0){
-		sum += (next1?next1.val:0)+(next2?next2.val:0);
-		node.next = new ListNode(sum%10);
-		node = node.next;
-		next1 = next1?next1.next:null;
-		next2 = next2?next2.next:null;
-		sum = Math.floor(sum/10);
-	}
-	return l3;
-};
+// 时间复杂度O(n^2)  空间复杂度 O(n)
+var addTwoNumbers =function(l1,l2){
+    var sum = l1.val+l2.val;
+    var listP1= l1.next;
+    var listP2= l2.next;
+    var l3 = new ListNode(sum%10);
+    var listP3 = l3;
+    sum = Math.floor(sum/10);
+    while(listP1||listP2||sum!==0){
+        sum = sum+(listP1?listP1.val:0)+(listP2?listP2.val:0);
+        listP3.next = new listNode(sum%10);
+        listP3 = node.next;
+        listP1 = listP1?listP1.next:null;
+        listP2 = listP2?listP2.next:null;
+        sum = Math.floor(sum/10);
+    }
+    return l3;
+}
