@@ -3,7 +3,7 @@
 // 做了一次代码的搬运工 并不是很理解
 //  继续弄懂这个问题。。
 
-// linklist 写法
+// arraylist 写法
 public class Solution {
 public int lengthOfLongestSubstring(String s) {
 ArrayList<Character> list=new ArrayList();
