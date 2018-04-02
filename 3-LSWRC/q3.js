@@ -90,7 +90,7 @@ function comparetwoword(target,stack,array,end) {
     };
 
 
-// main
+// main对知识的渴望来自于对自身渺小的认知 感觉到的恐惧和不安才能更好的转化为求知欲
 var lengthOfLongestSubstring = function(s) {
     var stack1 = new Stack();
     var array1 = s.split('');
