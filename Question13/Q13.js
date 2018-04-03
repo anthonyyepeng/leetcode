@@ -3,6 +3,7 @@
  * @return {number}
  */
 //时间复杂度为O(n) 空间复杂度为O(1)
+//了解罗马数字即可
 var romanToInt = function(s) {
     s = s.split('');
     var i=0;

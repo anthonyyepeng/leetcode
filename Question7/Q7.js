@@ -2,6 +2,7 @@
  * @param {number} x
  * @return {number}
  */
+ //将其转化为字符串之后然后头尾相交换 使用了辅助空间
 var reverse = function(x) {
      var a = new Array();
     var b = new Array();
@@ -14,9 +15,6 @@ var reverse = function(x) {
     var i =a.length-1;
     var flag;
     var flag2;
-
-
-
     while(a[i]=="0"){
             i--;
           };
@@ -25,9 +23,6 @@ var reverse = function(x) {
         b[j]=a[i];
         j++;
     }
-
-    console.log(x);
-    console.log(a);
     b=b.join("");
     b= parseInt(b);
     flag2=isNaN(b);
