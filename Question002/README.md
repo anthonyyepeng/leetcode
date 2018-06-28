@@ -1,4 +1,4 @@
-#ADD TWO NUM#
+# ADD TWO NUM 
 
 
 
@@ -20,13 +20,4 @@ Output: 7 -> 0 -> 8
 
 //try to use java script
 `code `
-```javascript```
-
-length1 =nums.length-1;
-console.log(length1);
-for(j;j<=length1;j++){
-     if(nums[i]+nums[j]!=target&&j==length1&&i<length1){
-         i++;j=i;
-        }
-    else if(nums[i]+nums[j]==target){ var end = [i,j];return(end);break;}
-    }
+`javascript`
