@@ -6,11 +6,15 @@ Note: You may not slant the container and n is at least 2.
 
 ![avatar](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg)
 
-
+***
 <a href="https://github.com/anthonyyepeng/leetcode/twoSum">github 链接</a><br/>
+
 <a href="https://www.jianshu.com/u/98e0133e333e">个人简书</a><br/>
+
 `code `<br/>
+
 `javascript`<br/>
+
 `Algorithm`<br/>
 
-coptright&copy;anthonyyepeng
+copyright&copy;anthonyyepeng
